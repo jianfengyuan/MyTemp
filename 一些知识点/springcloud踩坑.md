@@ -40,3 +40,9 @@
 >
 > 
 
+## 2. [springboot+thymeleaf模版引入静态资源不对问题](https://www.oschina.net/question/2596215_2269976)
+
+```
+使用绝对路径引用资源(路径以 / 开头)，例如 /assets/js/echarts.min.js，而不是相对路径
+```
+
